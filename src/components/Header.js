@@ -5,12 +5,12 @@ import { GiFruitTree } from 'react-icons/gi'
 
 const Header = () => {
     return (
-        <header className="recipes-container black">
+        <header className="header-container">
             <div className="nav-header"><Link to="/"><img src={logo} alt="logo" /></Link> </div>
             
-            <div><h2 className="title main-header">Coney's Quality Lawn Services</h2>
-            <span className="right"><h5 className="main-header-small"> Aurora, CO 80013</h5></span>
-            </div>
+            <div><h2 className="title main-header black">Coney's Quality Lawn Services</h2></div>
+            <div className="right main-header-small"><h5> Aurora, CO 80013</h5></div>
+        
         </header>
     )
 }
