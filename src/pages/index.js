@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
+import { GiFruitTree } from 'react-icons/gi'
 
 export default function Home() {
   return (
@@ -18,13 +19,13 @@ export default function Home() {
           </div>
         </div>
       <div className="home-flex">
-        <div><p><span className="bold">A</span> well maintained property has numerous benefits. It increases the value of the property; it welcomes you
+        <div><GiFruitTree /><p><span></span><span className="bold">A</span> well maintained property has numerous benefits. It increases the value of the property; it welcomes you
         after a hard days work; it looks inviting and friendly; spurs creativity; promotes optimism; 
         encourages the right type of wild life; and stimulates enjoyable, playful moments in the yard.</p>
         <p>You have invested much in your property. Let<span className="bold">CQLS</span> take care of all your lawn care.</p></div>
         <div className="home-flex-nest">
           <div className="home-flex-span2"><h3 className="">Services</h3> </div>
-          <div>
+          <div className="no-margin-top">
             <ul>
               <li>
                 Mowing
