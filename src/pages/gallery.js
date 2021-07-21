@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import { StaticImage } from 'gatsby-plugin-image'
 import { Link } from 'gatsby'
+import { GiHighGrass } from 'react-icons/gi'
 
 const gallery = () => {
     return (
@@ -10,7 +11,7 @@ const gallery = () => {
                 <section className="about-page">
                     <article>
                     <h2>Recent Projects</h2>
-                    <p>Coming soon!!!!
+                    <p><span><GiHighGrass /> </span><span className="bold"> C</span>oming soon!!!!
 
                     </p>
                     <p></p>

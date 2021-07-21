@@ -11,7 +11,7 @@ const About = () => {
                 <section className="about-page">
                     <article>
                     <h2>About Us</h2>
-                    <p><span><GiHighGrass /> </span>I am just a young man, trying to use my passion for the outdoors into a profession I enjoy.
+                    <p><span><GiHighGrass /> </span><span className="bold"> I</span> am just a young man, trying to use my passion for the outdoors into a profession I enjoy.
                     I place a high value in providing good quality customer service. At the end of each project,  I provide
                     the client with a customer service form, where they can tell me of areas that need improvement for my 
                     return visit.

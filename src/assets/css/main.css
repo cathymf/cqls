@@ -360,7 +360,7 @@ form > *:last-child {
 .nav-header img {
   width: 200px;
   margin-left: auto;
-  margin-bottom: -9px;
+  margin-top: 9px;
 }
 .nav-btn {
   padding: 0.15rem 0.75rem;
@@ -830,6 +830,7 @@ form > *:last-child {
     text-align: center;
     padding-bottom: 0;
     margin-bottom: 0;
+    background-color: var(--green-light);
   }
   .no-margin-top ul {
     margin-top: 0;
