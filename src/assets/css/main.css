@@ -359,7 +359,7 @@ form > *:last-child {
 }
 .nav-header img {
   width: 200px;
-  margin-left: -6px;
+  margin-left: auto;
   margin-bottom: -9px;
 }
 .nav-btn {
@@ -443,13 +443,20 @@ form > *:last-child {
 /*#########*/
 /* Footer */
 /*#########*/
+@media screen and (min-width: 992px) {
+  .page-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+}
 .page-footer {
   text-align: center;
   height: 4rem;
-  display: grid;
+  /*display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  /*justify-content: center;*/
+  justify-content: center;*/
   background: var(--grey-700);
   color: var(--white);
 }
@@ -805,7 +812,7 @@ form > *:last-child {
   .home-flex {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 2.5rem;
+    gap: 3.5rem;
     padding-top: 1.5rem;
   }
   .home-flex-nest {
@@ -856,8 +863,4 @@ form > *:last-child {
 .bold {
   font-weight: bold;
   padding-left: 0.5rem;
-}
-li::before {
-  content: "*  ";
-  color: var(--primary-400);
 }

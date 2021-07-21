@@ -16,7 +16,7 @@ const contactus = () => {
                         <p>Fill out the form and we will get back to you.</p>
                     </article>
                     <article>
-                        <form className="form contact-form">
+                        <form name="contact" className="form contact-form" netlify>
                             <div className="form-row">
                                 <label htmlFor="name">name</label>
                                 <input type="text" name="name" id="name" />

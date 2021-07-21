@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../assets/images/coney-logo1.svg'
-import { GiFruitTree } from 'react-icons/gi'
 
 const Header = () => {
     return (
